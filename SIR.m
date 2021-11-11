@@ -1,12 +1,15 @@
-% In the SIR model we have 3 epidemiological classes: Susceptible, Infected and Removed individuals
+% In the SIR model we have 3 epidemiological classes: Susceptible, Infected and Removed individuals.
+% SIR.m - we are just looking at a static population.
 clear all,close all
 dt=1;
 N=10^6;			% The total population
 beta=0.25;		% Number of contacts per day that are sufficient to spread the disease
 gamma=1/10;		% Fraction of the infected group that will recover during any given day
-I(1)=10;		% I(n) - number of infected individuals
-S(1)=N-I(1);	% S(n) - number of susceptible individuals
+I(1)=10;		% I(0) - initial number of infected individuals
+S(1)=N-I(1);	% S(0) - initial number of susceptible individuals
 
+% I(n) - number of infected individuals
+% S(n) - number of susceptible individuals
 for n=2:1000
 	I(n) = I(n-1)+dt*(beta*(S(n-1)/N)-gamma)*I(n-1);
 	S(n) = S(n-1)-dt*beta*S(n-1)*(I(n-1)/N);
