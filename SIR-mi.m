@@ -15,14 +15,26 @@ endfor
 
 x=S/N;
 y=I/N;
-R=1-x-y;
+z=1-x-y;
 
 vreme=1:1:1000;
-figure 1, plot(vreme,y,"r","linewidth",1.5,
-	vreme,R,"g","linewidth",1.5,
+figure 1, 
+plot(vreme,y,"r","linewidth",1.5,
+	vreme,z,"g","linewidth",1.5,
 	vreme,x,"b","linewidth",1.5);
 leg=legend("I","R","S")
-set(leg,"fontsize",15);
+set(leg,"fontsize",17);
 axis([0 500 0 1])
+
+figure 2,
+plot(x,y,"linewidth",1.5);
+xlabel('S(t)/N',"fontsize",15)
+ylabel('I(t)/N',"fontsize",15)
+
+figure 3,
+plot(y,"linewidth",1.5);
+xlabel('Day',"fontsize",15)
+ylabel('Rrevalence',"fontsize",15)
+
 grid on
 hold on
