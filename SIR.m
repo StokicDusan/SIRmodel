@@ -33,15 +33,15 @@ hold on
 
 figure 2,
 plot(x,y,"linewidth",1.5);
-xlabel('S(t)/N',"fontsize",15)
-ylabel('I(t)/N',"fontsize",15)
+xlabel('S(t)/N',"fontsize",17)
+ylabel('I(t)/N',"fontsize",17)
 grid on
 hold on
 
 figure 3,
 plot(y,"linewidth",1.5);
-xlabel('Day',"fontsize",15)
-ylabel('Prevalence',"fontsize",15)
+xlabel('Day',"fontsize",17)
+ylabel('Prevalence',"fontsize",17)
 grid on
 hold on
 
@@ -49,12 +49,12 @@ hold on
 [pk ipk]=max(pks)
 maxI=pk			% infected population at the peak of the epidemic
 Tstar=loc(ipk)	% time where the epidemic reaches its peak
-Rinf=z(end)	% removed population after the epidemic
+Rinf=z(end)		% removed population after the epidemic
 
 figure 4,
-plot(vreme,y,"linewidth",1.5,
+plot(vreme,y,"linewidth",1,
 	 loc,pks,"go","linewidth",2);
-xlabel('Day',"fontsize",15)
-ylabel('Prevalence',"fontsize",15)
+xlabel('Day',"fontsize",17)
+ylabel('Prevalence',"fontsize",17)
 grid on
 hold on
