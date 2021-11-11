@@ -22,7 +22,7 @@ plot(vreme,y,"r","linewidth",1.5,
 	vreme,z,"g","linewidth",1.5,
 	vreme,x,"b","linewidth",1.5);
 leg=legend("I","R","S")
-set(leg,"fontsize",15);
+set(leg,"fontsize",17);
 axis([0 500 0 1])
 
 figure 2,
