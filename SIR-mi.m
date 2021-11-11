@@ -24,8 +24,8 @@ z=1-x-y;		% z - removed fraction of the population
 vreme=1:1:2000;
 figure 1, 
 plot(vreme,y,"r","linewidth",1.5,
-	 vreme,z,"g","linewidth",1.5,
-	 vreme,x,"b","linewidth",1.5);
+	vreme,z,"g","linewidth",1.5,
+	vreme,x,"b","linewidth",1.5);
 leg=legend("I","R","S")
 set(leg,"fontsize",17);
 axis([0 500 0 1])
@@ -34,15 +34,15 @@ hold on
 
 figure 2,
 plot(x,y,"linewidth",1.5);
-xlabel('S(t)/N',"fontsize",15)
-ylabel('I(t)/N',"fontsize",15)
+xlabel('S(t)/N',"fontsize",17)
+ylabel('I(t)/N',"fontsize",17)
 grid on
 hold on
 
 figure 3,
-plot(vreme,y,"linewidth",1.5);
-xlabel('Day',"fontsize",15)
-ylabel('Prevalence',"fontsize",15)
+plot(y,"linewidth",1.5);
+xlabel('Day',"fontsize",17)
+ylabel('Prevalence',"fontsize",17)
 grid on
 hold on
 
@@ -50,12 +50,12 @@ hold on
 [pk ipk]=max(pks)
 maxI=pk			% infected population at the peak of the epidemic
 Tstar=loc(ipk)	% time where the epidemic reaches its peak
-Rinf=z(2000)	% removed population after the epidemic
+Rinf=z(end)		% removed population after the epidemic
 
 figure 4,
-plot(vreme,y,"linewidth",1.5,
+plot(vreme,y,"linewidth",1,
 	 loc,pks,"go","linewidth",2);
-xlabel('Day',"fontsize",15)
-ylabel('Prevalence',"fontsize",15)
+xlabel('Day',"fontsize",17)
+ylabel('Prevalence',"fontsize",17)
 grid on
 hold on
