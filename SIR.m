@@ -41,7 +41,7 @@ hold on
 figure 3,
 plot(y,"linewidth",1.5);
 xlabel('Day',"fontsize",15)
-ylabel('Rrevalence',"fontsize",15)
+ylabel('Prevalence',"fontsize",15)
 grid on
 hold on
 
@@ -55,6 +55,6 @@ figure 4,
 plot(vreme,y,"linewidth",1.5,
 	 loc,pks,"go","linewidth",2);
 xlabel('Day',"fontsize",15)
-ylabel('Rrevalence',"fontsize",15)
+ylabel('Prevalence',"fontsize",15)
 grid on
 hold on
