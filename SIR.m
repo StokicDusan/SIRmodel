@@ -27,16 +27,19 @@ plot(vreme,y,"r","linewidth",1.5,
 leg=legend("I","R","S")
 set(leg,"fontsize",17);
 axis([0 500 0 1])
+grid on
+hold on
 
 figure 2,
 plot(x,y,"linewidth",1.5);
 xlabel('S(t)/N',"fontsize",15)
 ylabel('I(t)/N',"fontsize",15)
+grid on
+hold on
 
 figure 3,
 plot(y,"linewidth",1.5);
 xlabel('Day',"fontsize",15)
 ylabel('Rrevalence',"fontsize",15)
-
 grid on
 hold on
