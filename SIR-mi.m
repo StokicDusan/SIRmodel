@@ -29,16 +29,22 @@ plot(vreme,y,"r","linewidth",1.5,
 leg=legend("I","R","S")
 set(leg,"fontsize",17);
 axis([0 500 0 1])
+grid on
+hold on
 
 figure 2,
 plot(x,y,"linewidth",1.5);
 xlabel('S(t)/N',"fontsize",15)
 ylabel('I(t)/N',"fontsize",15)
+grid on
+hold on
 
 figure 3,
 plot(vreme,y,"linewidth",1.5);
 xlabel('Day',"fontsize",15)
 ylabel('Rrevalence',"fontsize",15)
+grid on
+hold on
 
 [pks,loc]=findpeaks(y);
 [pk ipk]=max(pks)
@@ -48,7 +54,8 @@ Rinf=z(2000)	% removed population after the epidemic
 
 figure 4,
 plot(vreme,y,"linewidth",1.5,
-	 loc,pks,"go","linewidth",2)
-
+	 loc,pks,"go","linewidth",2);
+xlabel('Day',"fontsize",15)
+ylabel('Rrevalence',"fontsize",15)
 grid on
 hold on
