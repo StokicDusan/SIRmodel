@@ -3,11 +3,11 @@
 clear all,close all
 pkg load signal
 dt=1;
-N=10^6;			% The total population
+N=10^6;		% The total population
 beta=0.25;		% Number of contacts per day that are sufficient to spread the disease
 gamma=1/10;		% Fraction of the infected group that will recover during any given day
 I(1)=10;		% I(0) - initial number of infected individuals
-S(1)=N-I(1);	% S(0) - initial number of susceptible individuals
+S(1)=N-I(1);		% S(0) - initial number of susceptible individuals
 
 % I(n) - number of infected individuals
 % S(n) - number of susceptible individuals
@@ -44,9 +44,9 @@ grid on
 hold on
 
 [pks,loc]=findpeaks(y);
-[pk ipk]=max(pks)
-maxI=pk			% infected population at the peak of the epidemic
-Tstar=loc(ipk)	% time where the epidemic reaches its peak
+[pk, ipk]=max(pks);
+maxI=pk		% infected population at the peak of the epidemic
+Tstar=loc(ipk)		% time where the epidemic reaches its peak
 Rinf=z(end)		% removed population after the epidemic
 
 figure 4,
