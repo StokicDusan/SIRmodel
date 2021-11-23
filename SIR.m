@@ -49,6 +49,7 @@ maxI=pk		% infected population at the peak of the epidemic
 Tstar=loc(ipk)		% time where the epidemic reaches its peak
 Rinf=z(end)		% removed population after the epidemic
 
+disp([pks,loc])
 figure 4,
 plot(vreme,y,"linewidth",1,loc,pks,"go","linewidth",2);
 xlabel('Day',"fontsize",17)
