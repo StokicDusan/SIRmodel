@@ -32,6 +32,12 @@ $ octave --persist SIR-mi.m
 
 ## Examples
 
+## Provide Feedback 👍
+
+If you encounter any bugs or have suggestions, please file an issue in the
+[Issues][issues-url]
+section of the project.
+
 [contributors-shield]: https://img.shields.io/github/contributors/StokicDusan/SIRmodel
 [contributors-url]: https://github.com/StokicDusan/SIRmodel/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/StokicDusan/SIRmodel?style=social
