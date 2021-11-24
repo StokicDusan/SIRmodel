@@ -1,3 +1,11 @@
+[![Contributors][contributors-shield]][contributors-url]
+[![Commit-activity][commit-activity-shield]][commit-activity-url]
+[![Issues][issues-shield]][issues-url]
+[![Repo-size][repo-size-shield]][repo-size-url]
+[![License][license-shield]][license-url]  
+[![Forks][forks-shield]][forks-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
+
 # Welcome to SIRmodel
 Octave SIR model simulation for spread of disease
 
@@ -23,3 +31,18 @@ $ octave --persist SIR-mi.m
 ```
 
 ## Examples
+
+[contributors-shield]: https://img.shields.io/github/contributors/StokicDusan/SIRmodel
+[contributors-url]: https://github.com/StokicDusan/SIRmodel/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/StokicDusan/SIRmodel?style=social
+[forks-url]: https://github.com/StokicDusan/SIRmodel/network/members
+[issues-shield]: https://img.shields.io/github/issues/StokicDusan/SIRmodel
+[issues-url]: https://github.com/StokicDusan/SIRmodel/issues
+[commit-activity-shield]: https://img.shields.io/github/last-commit/StokicDusan/SIRmodel
+[commit-activity-url]: https://github.com/StokicDusan/SIRmodel/graphs/commit-activity
+[license-url]: https://github.com/StokicDusan/SIRmodel/blob/main/LICENSE
+[license-shield]: https://img.shields.io/github/license/StokicDusan/SIRmodel
+[repo-size-shield]: https://img.shields.io/github/repo-size/StokicDusan/SIRmodel
+[repo-size-url]: https://img.shields.io/github/repo-size/StokicDusan/SIRmodel
+[linkedin-shield]: https://img.shields.io/badge/LinkedIn-0077B5?style=plastice&logo=linkedin&logoColor=white
+[linkedin-url]: https://linkedin.com/in/stokicdusan
