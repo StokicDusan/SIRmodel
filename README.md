@@ -14,7 +14,7 @@ Script calculates relevant values and plots figures.
 
 ## Installing the dependencies
 This script requires signal package. To install the packages, in octave execute:
-```octave
+```bash
 $ pkg install -forge signal
 ```
 ## How to use it
