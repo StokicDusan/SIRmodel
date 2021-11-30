@@ -1,0 +1,9 @@
+
+leg = -32.613
+maxI =  0.24107
+Tstar =  85
+Rinf =  0.89911
+Peaks of prevalence by days are:
+    0.24107
+   85.00000
+
