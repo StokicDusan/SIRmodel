@@ -32,6 +32,14 @@ $ octave --persist SIR-mi.m
 
 ## Examples
 
+<img src="assets/SIR-figure-1.ofig" width="auto" height="auto" />
+
+![image info](assets/SIR-figure-1.ofig)  
+
+![image info](./assets/SIR-figure-1.ofig)  
+
+![image info](/assets/SIR-figure-1.ofig)  
+
 ## Provide Feedback 👍
 
 If you encounter any bugs or have suggestions, please file an issue in the
