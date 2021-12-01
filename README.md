@@ -34,9 +34,11 @@ $ octave --persist SIR-mi.m
 
 <img src="assets/SIR-figure-1.ofig" width="auto" height="auto" />
 
-![image info](assets/SIR-figure-1.ofig)  
+<img src="assets/SIR-figure-1" width="auto" height="auto" />
 
-![image info](./assets/SIR-figure-1.ofig)  
+![plot](assets/SIR-figure-1.ofig)  
+
+![plit](./assets/SIR-figure-1.ofig)  
 
 ![image info](/assets/SIR-figure-1.ofig)  
 
