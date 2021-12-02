@@ -62,7 +62,7 @@ Descriptions of values shown in code blocks above are given below.
 |Tstar	| Time where the epidemic reaches its peak in days |
 |Rinf	| Removed population after the epidemic normalized by N |
 
-Apart form outputs to the terminal the scripts plot figures. All four figures calling SIR.m script are given below:  
+Apart form outputs to the terminal the scripts plot figures. All four figures calling SIR.m script are given below:
 
 <img src="/assets/SIR-figure-1.png" width="45%" height="45%" /> <img src="/assets/SIR-figure-2.png" width="45%" height="45%" />
 <img src="/assets/SIR-figure-3.png" width="45%" height="45%" /> <img src="/assets/SIR-figure-4.png" width="45%" height="45%" />
