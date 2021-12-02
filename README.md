@@ -31,6 +31,42 @@ $ octave --persist SIR-mi.m
 ```
 
 ## Examples
+The following code block shows an example of calling SIR.m and SIR-mi.m scripts from terminal explained in the launch section.
+```octave
+% SIR.m
+maxI =  0.24107
+Tstar =  85
+Rinf =  0.89911
+Peaks of prevalence by days are:
+    0.24107
+   85.00000
+
+```
+
+```octave
+% SIR-mi.m
+maxI =  0.23612
+Tstar =  87
+Rinf =  0.56549
+Peaks of prevalence by days are:
+      0.236122      0.049804      0.027671      0.022386      0.020844      0.020363      0.020209
+     87.000000    405.000000    686.000000    965.000000   1244.000000   1523.000000   1802.000000
+
+```
+Descriptions of values shown in code blocks above are given below.
+
+|Variables | Description |
+|:---------------|:-----:|
+|N	| The total population at the begining of the simulation |
+|maxI	| Infected population at the peak of the epidemic normalized by N |
+|Tstar	| Time where the epidemic reaches its peak in days |
+|Rinf	| Removed population after the epidemic normalized by N |
+
+Apart form outputs to the terminal scripts plot figures. All four of them calling SIR.m are given below:
+![SIR-figure-1](assets/SIR-figure-1.png)
+![SIR-figure-2](assets/SIR-figure-2.png)
+![SIR-figure-3](assets/SIR-figure-3.png)
+![SIR-figure-4](assets/SIR-figure-4.png)
 
 
 ## Provide Feedback 👍
