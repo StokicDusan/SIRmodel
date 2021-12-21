@@ -1,4 +1,3 @@
-[![Contributors][contributors-shield]][contributors-url]
 [![Commit-activity][commit-activity-shield]][commit-activity-url]
 [![Issues][issues-shield]][issues-url]
 [![Repo-size][repo-size-shield]][repo-size-url]
@@ -73,8 +72,6 @@ If you encounter any bugs or have suggestions, please file an issue in the
 [Issues][issues-url]
 section of the project.
 
-[contributors-shield]: https://img.shields.io/github/contributors/StokicDusan/SIRmodel
-[contributors-url]: https://github.com/StokicDusan/SIRmodel/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/StokicDusan/SIRmodel?style=social
 [forks-url]: https://github.com/StokicDusan/SIRmodel/network/members
 [issues-shield]: https://img.shields.io/github/issues/StokicDusan/SIRmodel
