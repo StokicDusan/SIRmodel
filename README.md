@@ -12,7 +12,7 @@ Octave SIR model simulation for spread of disease.
 Script calculates relevant values and plots figures.
 
 ## Installing the dependencies
-This script requires signal package. To install the packages, in octave execute:
+The script requires signal package. To install the package, in octave execute:
 ```bash
 $ pkg install -forge signal
 ```
