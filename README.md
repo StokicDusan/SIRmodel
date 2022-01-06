@@ -6,7 +6,7 @@
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 # Welcome to SIRmodel
-Octave SIR model simulation for spread of disease.
+SIR model simulating spread of disease in Octave.
 
 ## What does the script do?
 Script calculates relevant values and plots figures.
