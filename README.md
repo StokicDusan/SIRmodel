@@ -8,9 +8,9 @@
 # Welcome to SIRmodel
 In this repo we consider the [SIR model][sir-model-url] simulating spread of disease in Octave.  
 The name SIR comes from the three epidemiological population classes we are considering:
- - S --- Susceptible are healthy individuals which can be infected in the future 
- - I --- Infected are individuals which are carying the infection and can infect others
- - R --- Removed are those who where infected and now can't spread the desease anymore 
+ - S &#8212; Susceptible are healthy individuals which can be infected in the future 
+ - I &#8212; Infected are individuals which are carying the infection and can infect others
+ - R &#8212; Removed are those who where infected and now can't spread the desease anymore 
 
 Lets consider the parameters of the model. Numbers of members in every epidemiological class at the moment *t* are *S(t)*, *I(t)* and *R(t)*. If the total population is *N*, we have *S(t) + I(t) + R(t) = N*. Moving between classes are only possible according to the pattern S &#8594; I &#8594; R.
 
