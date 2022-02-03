@@ -6,7 +6,13 @@
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 # Welcome to SIRmodel
-SIR model simulating spread of disease in Octave.
+In this repo we consider the [SIR model][sir-model-url] simulating spread of disease in Octave.  
+The name SIR comes from the three epidemiological population classes we are considering:
+ - S --- Susceptible are healthy individuals which can be infected in the future 
+ - I --- Infected are individuals which are carying the infection and can infect others
+ - R --- Removed are those who where infected and now can't spread the desease anymore 
+
+Lets consider the parameters of the model. Numbers of members in every epidemiological class at the moment *t* are *S(t)*, *I(t)* and *R(t)*. If the total population is *N*, we have *S(t) + I(t) + R(t) = N*. Moving between classes are only possible according to the pattern S &#8594; I &#8594; R.
 
 ## What does the script do?
 Script calculates relevant values and plots figures.
@@ -68,6 +74,7 @@ Apart form outputs to the terminal the scripts plot figures. All four figures ca
 
 If you encounter any bugs or have suggestions, please file an issue in the [Issues][issues-url] section of the project.
 
+[sir-model-url]: https://royalsocietypublishing.org/doi/pdf/10.1098/rspa.1927.0118
 [forks-shield]: https://img.shields.io/github/forks/StokicDusan/SIRmodel?style=social
 [forks-url]: https://github.com/StokicDusan/SIRmodel/network/members
 [issues-shield]: https://img.shields.io/github/issues/StokicDusan/SIRmodel
