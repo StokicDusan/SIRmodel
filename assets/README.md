@@ -12,6 +12,10 @@ SIR model figures:
 |SIR-figure-4.png | Value of I in time with marked peaks |
 
 
+<img src="/assets/SIR-figure-1.png" width="45%" height="45%" /> <img src="/assets/SIR-figure-2.png" width="45%" height="45%" />
+<img src="/assets/SIR-figure-3.png" width="45%" height="45%" /> <img src="/assets/SIR-figure-4.png" width="45%" height="45%" />
+
+
 |SIR-mi.m | Description |
 |:--------------|:-----:|
 |SIR-mi-figure-1.png | Normalized values of S, I and R in time by days |
@@ -19,4 +23,7 @@ SIR model figures:
 |SIR-mi-figure-3.png | Value of I in time |
 |SIR-mi-figure-4.png | Value of I in time with marked peaks |
 
+
+<img src="/assets/SIR-mi-figure-1.png" width="45%" height="45%" /> <img src="/assets/SIR-mi-figure-2.png" width="45%" height="45%" />
+<img src="/assets/SIR-mi-figure-3.png" width="45%" height="45%" /> <img src="/assets/SIR-mi-figure-4.png" width="45%" height="45%" />
 
